@@ -1,0 +1,59 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+html {
+    height: 100%;
+}
+body {
+    background-image: url(BackgroundMarble.jpg);
+    background-size: cover;
+    padding-top: 10px;
+    align-content: left;
+
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-primary {
+    background-color: teal;
+    border-color: teal;
+    color: #fff;
+}
+
+.navbar {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    margin-top: 10px;
+    color:teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    align-content: center;
+}
+
+.footer {
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: auto;
+    background-color: teal;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 400px) { ... }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
